@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ol{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+   display: flex;
+}
+
+.navbar ol li{
+    list-style: none;
+    width: auto;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.navbar ol li:hover{
+    background-color: white;
+    color: black;
+}
+#logo{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul{
+    width: 100%;
+    height: 50px;
+    background-color: #11d368;
+    color: white;
+   display: flex;
+}
+.nav ul li.active{
+    text-decoration: underline;
+    color: black;
+}
+.nav ul li{
+    list-style: none;
+    width: auto;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav ul li:hover{
+    background-color: white;
+    color: black;
+}
+#firstheading{
+    text-align: center;
+    color: #1f13c4;
+    margin: 10px 0px;
+}
+.images{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.first , .second{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: 5%;
+}
+.first img , .second img{
+    width: 100%;
+    height:500px;
+    margin-bottom: 40px;
+}
+.buttons{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.buttons input{
+    padding: 6px 30px;
+    border: 2px solid #b61221;
+}
+.buttons button{
+    border: none;
+    outline: none;
+    background-color: #b61221;
+    padding: 6px 15px;
+    color: white;
+    
+    cursor: pointer;
+    transition: .4s linear;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+.buttons button:hover{
+    color: #b61221;
+    background-color: white;
+    border: 2px solid #b61221 ;
+}
+.buttons .fa-solid{
+    margin-left: -30px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+footer section{
+    width: 30%;
+    padding: 20px 10px;
+    margin-left: 3%;
+    display: block;
+}
+footer section ol li{
+    list-style: none;
+    margin: 6px 0px;
+}
+footer section p{
+    padding: 10px 0px;
+}
+#allrights{
+    text-align: center;
+    color: #b61221;
+}
